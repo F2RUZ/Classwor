@@ -1,0 +1,127 @@
+body {
+  font-family: monospace;
+}
+
+.body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: monospace;
+}
+
+.body__2 {
+  background-color: white;
+  color: black;
+  font-family: monospace;
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  position: relative;
+  right: -100px;
+  font-size: 40px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cards {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; */
+}
+.card {
+  width: 200px;
+  border: 2px solid black;
+  text-align: center;
+  padding: 50px;
+  border-radius: 8px;
+}
+.card__2 {
+  width: 200px;
+  border: 2px solid aquamarine;
+  text-align: center;
+  padding: 50px;
+  background-color: aquamarine;
+  color: black;
+  border-radius: 8px;
+}
+input {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+}
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 8px;
+}
+button:active {
+  background-color: coral;
+  border: none;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  font-size: 20px;
+}
+
+.effect {
+  /* border: 1px solid black; */
+  padding: 20px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.effect:hover {
+  background-color: chocolate;
+  color: white;
+  transition: all 0.3s linear;
+}
+.effect:active {
+  background-color: cyan;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s linear;
+}
+.tun {
+  position: relative;
+  bottom: 60px;
+  float: right;
+  padding: 20px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.tun:hover {
+  background-color: chocolate;
+  color: white;
+  transition: all 0.3s linear;
+}
+.tun:active {
+  background-color: cyan;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s linear;
+}

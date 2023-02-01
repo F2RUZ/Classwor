@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.boxes{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+@media screen and (max-width: 900px) {
+    .boxes{
+        flex-wrap: wrap;
+    }
+}
+.box{
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    
+}
+svg{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.box__text{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.box__time1, .box__time2, .box__time3, .box__time4{
+    text-align: center;
+    font-size: 1rem;
+}
+.box__minute1, .box__minute2, .box__minute3, .box__minute4{
+    text-align: center;
+    font-size: 1rem;
+}
